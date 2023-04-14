@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recruitment Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Utama -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+
+     <!-- Font Awesome 5.15.4 -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+<header>
+    <nav>
+        <a class="logo-container pl-3" href="https://neuronworks.co.id">                            
+            <img src="https://cdn.neuronworks.co.id/v0.3.8/dev/assets/img/logo/nw-horizontal.png" alt="PT. Neuronworks Indonesia" style="width: 8rem;">
+        </a>
+    </nav>
+</header>
+ 
+<main>
+    <div class="card">
+        <div>
+            <div>
+                <div>                            
+                    <div>
+                        <img src="https://cdn.neuronworks.co.id/v0.3.8/dev/assets/img/logo/logomark-sign.png" alt="Neuron 3.0" style="width: 7rem;">                            
+                    </div>
+                </div>                
+                <div>
+                    <h2>Form Rekrutasi</h2>
+                    <p>Isi data di bawah sesuai dengan identitas diri anda dan lowongan yang akan anda pilih</p>
+                </div>
+                <!-- Form -->
+                <form id="recruitment-form" novalidate="novalidate">
+                    <input type="hidden" name="token" value="#">
+                    <div class="form-group">
+                        <label for="fullname" class="active">Fullname<span style="color: red;">*</span></label><br>
+                        <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Masukkan nama" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="active">Email <span style="color: red;">*</span></label><br>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Masukkan email" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" class="active">Phone Number<span style="color: red;">*</span></label><br>
+                        <input type="tel" class="form-control" name="nomorhp" id="phone" placeholder="Masukkan nomor telepon" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="vacancy">Vacancy <span style="color: red;">*</span></label><br>
+                        <select class="form-control" name="lowongan" id="lowongan">
+                            <option value="" disabled="" selected="">- Pilih Lowongan -</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="position">Position <span style="color: red;">*</span></label><br>
+                        <select class="form-control" required="" name="posisi" id="posisi">
+                            <option value="" disabled="" selected="">- Pilih Posisi -</option>
+                            <option value="#example1">Contoh Posisi #1</option>
+                            <option value="#example2">Contoh Posisi #2</option>
+                            <option value="#example3">Contoh Posisi #3</option>
+                          </select>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <button type="submit" id="loginBtn" class="btn btn-primary waves-effect waves-light">Kirim</button>
+                    </div>
+                </form>
+                <!-- End form -->
+            </div>
+        </div>
+
+        <div class="footer">
+            <ul>
+                <li>
+                    <a href="https://instagram.com/neuronworks">
+                        <i class="fab fa-instagram-square" aria-hidden="true"></i>
+                    </a>                        
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@NeuronworksIndonesia">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/neuronworks">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/neuronworks/">
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+            <a href="https://www.neuronworks.co.id">
+                www.neuronworks.co.id
+            </a>
+        </div>
+    </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-image: url("https://cdn.neuronworks.co.id/v0.3.8/dev/assets/img/other/Starlid-illustration.svg");
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: inline;
+}
+
+nav {
+  background-color: white;
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  top: 0;
+}
+
+nav a {
+  margin: 20px;
+}
+
+main {
+  padding: 0;
+  display: flex;
+  /* height: 100%; */
+}
+
+.profile header {
+  text-align: center;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 800px;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile img {
+  width: 200px;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 50px 50px 40px 900px;
+  padding: 20px;
+}
+form input {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+form select {
+  padding: 5px 8px;
+  margin-bottom: 15px;
+  width: calc(100% - 20px);
+}
+
+form button {
+  width: calc(100% - 20px);
+  padding: 5px 0;
+  border: none;
+  background-color: #2979ff;
+  font-size: 18px;
+  color: #fafafa;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer ul {
+  padding: 0px;
+}
+
+.footer li {
+  list-style-type: none;
+  display: inline;
+  margin: 0px 20px 0px 20px;
+}
+
+.footer li a {
+  font-size: 30px;
+  font-weight: 400;
+  text-decoration: none;
+
+  color: black;
+}
+
+.footer a {
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+
+  color: black;
+}
